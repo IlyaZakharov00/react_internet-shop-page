@@ -1,4 +1,4 @@
-// import logo from "./logo.svg";
+import logo from "./logo.svg";
 import "./App.css";
 import { ShopItemFunc } from "./components/shopItem/ShopItemFunc";
 import ShopItemClass from "./components/shopItem/ShopItemClass";
@@ -25,8 +25,6 @@ function App() {
     "€",
     "classes"
   );
-
-  console.log(itemForClass, itemForFunc);
 
   return (
     <div className={styles["container2"]}>
